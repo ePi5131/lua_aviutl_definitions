@@ -101,7 +101,7 @@ local camera_param={}
 ---@field track1 number # 2番目のトラックバーの値
 ---@field track2 number # 3番目のトラックバーの値
 ---@field track3 number # 4番目のトラックバーの値
----@field check boolean # チェックボックスの値
+---@field check0 boolean # チェックボックスの値
 obj={}
 
 
