@@ -32,19 +32,19 @@ obj.draw([x[,y[,z]]])
 ```
 #### 定義
 ```lua
-function obj.draw()
+function obj.draw()end
 
 ---@param x number
-function obj.draw(x)
+function obj.draw(x)end
 
 ---@param x number
 ---@param y number
-function obj.draw(x,y)
+function obj.draw(x,y)end
 
 ---@param x number
 ---@param y number
 ---@param z number
-function obj.draw(x,y,z)
+function obj.draw(x,y,z)end
 ```
 これは、`x?`を使うと*Lua Language Server*に`nil`を許すことにされるからで、拡張編集はこれを許さないために一つ一つ定義することにしています
 
