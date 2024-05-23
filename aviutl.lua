@@ -655,7 +655,14 @@ function obj.getpixel(x,y,type)end
 
 ---画像データの要素を返す
 ---`type`は`obj.pixeloption`で設定したもの(デフォルトは`"col"`)になる
+---@param x integer # ピクセルの座標(X)
+---@param y integer # ピクセルの座標(Y)
+---@return integer
+---@return integer|number
+---@return integer|nil
+---@return integer|nil
 ---@see obj.pixeloption
+---@nodiscard
 function obj.getpixel(x,y)end
 
 
