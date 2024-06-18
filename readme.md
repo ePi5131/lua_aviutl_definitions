@@ -1,5 +1,5 @@
-# Lua Language Server用 拡張編集スクリプト定義ファイル
-https://github.com/LuaLS/lua-language-server で使うための、拡張編集スクリプトが提供する関数等の定義ファイルです
+# Lua Language Server用 AviUtl関連ライブラリ定義ファイル
+https://github.com/LuaLS/lua-language-server で使うための、拡張編集などが提供するライブラリの定義ファイルです
 
 ## 使い方
 [VSCodeの Lua 拡張機能](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) は既にインストールされていますね？
@@ -18,7 +18,7 @@ https://github.com/LuaLS/lua-language-server で使うための、拡張編集�
     "files.encoding": "shiftjis"
   },
   "Lua.workspace.library": [
-    "aviutl.luaへのパス"
+    "exedit.luaなどへのパス"
   ],
   "Lua.runtime.version": "LuaJIT"
 }
