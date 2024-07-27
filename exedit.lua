@@ -811,7 +811,7 @@ function obj.getinfo(name)end
 function obj.getinfo(name)end
 
 ---最大画像サイズを取得する
----@param name "max_size"
+---@param name "image_max"
 ---@return integer w
 ---@return integer h
 ---@nodiscard
